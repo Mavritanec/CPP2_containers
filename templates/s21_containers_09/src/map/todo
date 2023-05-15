@@ -1,0 +1,58 @@
+Member type
+complete: key_type
+complete: mapped_type
+complete: value_type
+complete: reference
+complete: const_reference
+todo: iterator
+todo: const_iterator
+todo: size_type
+
+???
+todo: ListIterator
+todo: iterator
+todo: const iterator
+???
+
+Functions
+todo: map()
+todo: map(std::initializer_list<value_type> const &items)
+todo: map(const map &m)
+todo: map(map &&m)
+todo: ~map()
+todo: operator=(map &&m)
+
+Element access
+todo: T& at(const Key& key)
+todo: T& operator[](const Key& key)
+
+Iterators
+todo: iterator begin()
+todo: iterator end()
+
+Capacity
+todo: empty
+todo: size
+todo: max size
+
+Modifiers
+todo: clear
+todo: std::pair<iterator, bool> insert(const value_type& value)
+todo: std::pair<iterator, bool> insert(const Key& key, const T& obj)
+todo: std::pair<iterator, bool> insert_or_assign(const Key& key, const T& obj)
+todo: erase(iterator pos)
+todo: swap(map& other)
+todo: merge(map& other)
+
+Lookup
+todo: contains(const Key& key)
+
+
+???
+Iterators Overloading
+todo: *iterator
+todo: ++iterator
+todo: --iterator
+todo: iterator==
+todo: iterator!=
+???
